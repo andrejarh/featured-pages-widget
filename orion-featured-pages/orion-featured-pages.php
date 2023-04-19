@@ -241,9 +241,6 @@ class orion_featured_pages extends SiteOrigin_Widget {
 					        'max' => 100,
 					        'integer' => true,
 					    ),
-						'divider_001' => array(
-		            		'type' => 'oriondivider',
-		            	),	
 					    'image_size' => array(
 					        'type' => 'select',
 					        'label' => esc_html__( 'Image size', 'dentalia' ),
@@ -255,9 +252,6 @@ class orion_featured_pages extends SiteOrigin_Widget {
 					        	'full' => esc_html__( 'Original image size', 'dentalia' ),
 					        ),
 					    ),		            					    
-						'divider_01' => array(
-		            		'type' => 'oriondivider',
-		            	),	
 					    'btn_type' => array(
 					        'type' => 'select',
 					        'label' => esc_html__( 'Button Style', 'dentalia' ),
@@ -289,9 +283,7 @@ class orion_featured_pages extends SiteOrigin_Widget {
 								'white' => esc_html__( 'Light', 'dentalia' ),
 							),					
 						),
-						'divider_02' => array(
-		            				'type' => 'oriondivider',
-		            	),					    
+				    
 						'image_overlay' => array(
 							'type' => 'select',
 							'label' => esc_html__( 'Image Overlay', 'dentalia' ),
@@ -330,9 +322,6 @@ class orion_featured_pages extends SiteOrigin_Widget {
 								'scale-zoomout' => esc_html__( 'Zoom out', 'dentalia' ),
 							),					
 						),
-						'divider_03' => array(
-		            				'type' => 'oriondivider',
-		            	),	
 						'hover_resize' => array(
 							'type' => 'checkbox',
 							'label' => esc_html__( 'Enlarge elements on hover', 'dentalia' ),
